@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile - PT MAHKOTA GEMILANG AIRINDO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="container">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      
+      <!-- Nama Perusahaan di Tengah -->
+      <div class="navbar-title">
+        <span>PT MAHKOTA GEMILANG AIRINDO</span>
+      </div>
+  
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+<!-- Hero Section (Banner Besar) -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Solusi Air Bersih Untuk Anda</h1>
+    <p>Ahlinya filter air rumah dan industri sejak 2017</p>
+    <a href="#kontak" class="btn">Hubungi Kami</a>
+  </div>
+</section>
+
+<!-- Tentang Kami -->
+<section id="about" class="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p><strong>PT. Mahkota Gemilang Airindo (MGA)</strong> didirikan pada tahun 2017, dan saat ini merupakan salah satu distributor dan retailer online terbesar untuk peralatan filter air di Indonesia.</p>
+      <p>Melalui berbagai toko seperti <strong>Crownfilter</strong> dan <strong>Jakarta Filter</strong>, kami mendistribusikan berbagai merek terkemuka seperti <strong>Filmtec Membrane</strong>, <strong>CSM</strong>, <strong>Calgon</strong>, <strong>Jacobi</strong>, <strong>Haycarb</strong>, <strong>Vontron</strong>, <strong>Viqua</strong>, dan banyak lagi.</p>
+      <p>Berkantor pusat di <strong>Jakarta Barat</strong>, kami melayani kebutuhan water treatment di seluruh Indonesia, baik untuk rumah tangga, bisnis, hingga industri. Dengan spesialisasi dalam bidang <strong>pengolahan air</strong> dan <strong>teknologi Reverse Osmosis (RO)</strong>, kami berkomitmen memberikan solusi air bersih terbaik dengan produk-produk berkualitas tinggi.</p>
+      <p>Saat ini, PT. MGA memiliki tim profesional dengan keahlian di bidangnya untuk memastikan setiap layanan dan produk yang kami tawarkan memberikan kepuasan maksimal kepada pelanggan.</p>
+      <p><strong>Alamat Kami:</strong><br>
+      Crownfilter - Ruko Mutiara Taman Palem Blok D8 No.15-16,<br>
+      Cengkareng Timur, Jakarta Barat, DKI Jakarta 11730, Indonesia.</p>
+    </div>
+  </section>
+  
+<!-- Produk -->
+<section id="produk" class="produk">
+    <div class="container">
+      <h2>Produk & Layanan</h2>
+      <p>Temukan berbagai produk filter air berkualitas kami. Klik produk untuk melihat detail, kemudian pesan di Tokopedia!</p>
+      <div class="produk-list">
+        <div class="produk-item" onclick="openModal('produk1')">
+          <img src="images/produk1.jpg" alt="Filter Air Rumah Tangga">
+          <h3>Filter Air Rumah Tangga</h3>
+        </div>
+        <div class="produk-item" onclick="openModal('produk2')">
+          <img src="images/produk2.jpg" alt="Filter Air Industri">
+          <h3>Filter Air Industri</h3>
+        </div>
+        <div class="produk-item" onclick="openModal('produk3')">
+          <img src="images/produk3.jpg" alt="Filter Air Rumah Tangga">
+          <h3>Filter Air Rumah Tangga</h3>
+        </div>
+        <div class="produk-item" onclick="openModal('produk4')">
+          <img src="images/produk4.jpg" alt="Filter Air Industri">
+          <h3>Filter Air Industri</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal untuk Detail Produk -->
+  <div id="produk1-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('produk1')">&times;</span>
+      <h2>Detail Produk - Filter Air Rumah Tangga</h2>
+      <img src="images/produk1.jpg" alt="Filter Air Rumah Tangga" class="modal-img">
+      <p>Filter air untuk rumah tangga dengan teknologi terbaru untuk menghasilkan air bersih yang aman digunakan. Sistem penyaringan 5 tahap yang efisien dan hemat energi.</p>
+      <a href="https://www.tokopedia.com/produk/123456" target="_blank" class="btn">Beli di Tokopedia</a>
+    </div>
+  </div>
+  
+  <div id="produk2-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('produk2')">&times;</span>
+      <h2>Detail Produk - Filter Air Industri</h2>
+      <img src="images/produk2.jpg" alt="Filter Air Industri" class="modal-img">
+      <p>Filter untuk keperluan industri dengan kapasitas besar dan daya tahan tinggi. Cocok untuk kebutuhan industri berat dan fasilitas besar.</p>
+      <a href="https://www.tokopedia.com/produk/789012" target="_blank" class="btn">Beli di Tokopedia</a>
+    </div>
+  </div>
+  
+  <div id="produk3-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('produk3')">&times;</span>
+      <h2>Detail Produk - Filter Air Rumah Tangga</h2>
+      <img src="images/produk3.jpg" alt="Filter Air Rumah Tangga" class="modal-img">
+      <p>Filter air dengan sistem penyaringan 5 tahap untuk air yang lebih bersih dan sehat. Cocok untuk penggunaan rumah tangga sehari-hari.</p>
+      <a href="https://www.tokopedia.com/produk/345678" target="_blank" class="btn">Beli di Tokopedia</a>
+    </div>
+  </div>
+  
+  <div id="produk4-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('produk4')">&times;</span>
+      <h2>Detail Produk - Filter Air Industri</h2>
+      <img src="images/produk4.jpg" alt="Filter Air Industri" class="modal-img">
+      <p>Filter air untuk industri dengan teknologi terbaik untuk menghasilkan air bersih sesuai kebutuhan besar industri.</p>
+      <a href="https://www.tokopedia.com/produk/901234" target="_blank" class="btn">Beli di Tokopedia</a>
+    </div>
+  </div>
+
+<!-- Keunggulan -->
+<section id="keunggulan">
+    <h2>Kenapa Memilih Kami?</h2>
+    <div class="keunggulan-list">
+      <div class="keunggulan-item">
+        <img src="images/garansi-icon.png" alt="Garansi">
+        <h3>Garansi Resmi</h3>
+        <p>Kami memberikan garansi penuh untuk setiap produk yang kami jual, memastikan kepuasan Anda.</p>
+      </div>
+      <div class="keunggulan-item">
+        <img src="images/teknisi-icon.png" alt="Teknisi Profesional">
+        <h3>Teknisi Profesional</h3>
+        <p>Tim teknisi kami memiliki pengalaman bertahun-tahun untuk menangani kebutuhan Anda.</p>
+      </div>
+      <div class="keunggulan-item">
+        <img src="images/quality-icon.png" alt="Kualitas Terjamin">
+        <h3>Kualitas Terjamin</h3>
+        <p>Produk-produk kami terjamin berkualitas tinggi dan memenuhi standar internasional.</p>
+      </div>
+      <div class="keunggulan-item">
+        <img src="images/servis-icon.png" alt="Pelayanan Cepat">
+        <h3>Pelayanan Cepat</h3>
+        <p>Pelayanan kami cepat dan responsif, siap membantu Anda kapan saja.</p>
+      </div>
+      <div class="keunggulan-item">
+        <img src="images/ekspedisi-icon.png" alt="Pengiriman Cepat">
+        <h3>Pengiriman Cepat</h3>
+        <p>Produk kami dikirim tepat waktu dengan ekspedisi terpercaya, sampai ke tujuan Anda dengan aman.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Kontak -->
+<section id="kontak">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <p>Jika Anda memiliki pertanyaan atau ingin berkonsultasi lebih lanjut, silakan isi formulir berikut:</p>
+      
+      <form id="contact-form" action="https://api.whatsapp.com/send" method="GET" target="_blank">
+        <div class="form-group">
+          <label for="name">Nama Lengkap</label>
+          <input type="text" id="name" name="name" required placeholder="Masukkan nama lengkap Anda">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Tulis pertanyaan atau pesan Anda"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Kategori Pertanyaan</label>
+          <select id="subject" name="subject" required>
+            <option value="pertanyaan_barang">Pertanyaan Barang</option>
+            <option value="pertanyaan_kegunaan">Pertanyaan Kegunaan</option>
+            <option value="komplain">Komplain</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="btn">Kirim Pesan ke WhatsApp</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Tambahkan JavaScript di bawah ini -->
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Menghentikan form submit secara normal
+  
+      // Mengambil nilai dari formulir
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      var subject = document.getElementById('subject').value;
+  
+      // Membuat URL WhatsApp dengan data formulir
+      var whatsappUrl = 'https://api.whatsapp.com/send?phone=6281380977935&text=' + 
+                        'Nama%20:%20' + encodeURIComponent(name) + '%0A' +
+                        'Email%20:%20' + encodeURIComponent(email) + '%0A' +
+                        'Kategori%20:%20' + encodeURIComponent(subject) + '%0A' +
+                        'Pesan%20:%20' + encodeURIComponent(message);
+  
+      // Membuka WhatsApp dengan URL yang sudah dibuat
+      window.open(whatsappUrl, '_blank');
+    });
+  </script>
+  
+  
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+      <p>&copy; 2023 PT Mahkota Gemilang Airindo | Semua Hak Cipta Dilindungi</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script>
+function openModal(productId) {
+  // Menampilkan modal berdasarkan ID produk yang diklik
+  document.getElementById(productId + '-modal').style.display = 'block';
+}
+
+function closeModal(productId) {
+  // Menyembunyikan modal berdasarkan ID produk yang diklik
+  document.getElementById(productId + '-modal').style.display = 'none';
+}
+
+// Menutup modal ketika mengklik di luar modal
+window.onclick = function(event) {
+  var modals = document.getElementsByClassName('modal');
+  for (var i = 0; i < modals.length; i++) {
+    if (event.target == modals[i]) {
+      modals[i].style.display = 'none';
+    }
+  }
+};
+</script>
+
+</body>
+</html>
